@@ -1,0 +1,40 @@
+
+	[class*="col-"]
+	{
+		border: 1px solid black;
+		text-align: center;
+	}
+	
+	
+	/*RESEAU*/
+	.reseau
+	{
+		background-color: #211E2B;
+	}
+	
+		/*HEADER*/
+	#logo
+	{
+		align-items: center;
+		width :100px;
+		height: 100px;
+	}
+	
+	.search button img
+	{
+		align-items: center;
+		width :20px;
+		height: 20px;
+	}
+		/*BANNIERE*/
+	.banniere
+	{
+		background-image: url(asset/banniere/ban.jpg);
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		align-content: center;
+		position: relative;
+	}
+
+	 /*ARTICLE*/
