@@ -1,40 +1,95 @@
+[class*="col-"] {
+	bordser: 1px solid black;
+	text-align: center;
+}
 
-	[class*="col-"]
-	{
-		border: 1px solid black;
-		text-align: center;
-	}
-	
-	
-	/*RESEAU*/
-	.reseau
-	{
-		background-color: #211E2B;
-	}
-	
-		/*HEADER*/
-	#logo
-	{
-		align-items: center;
-		width :100px;
-		height: 100px;
-	}
-	
-	.search button img
-	{
-		align-items: center;
-		width :20px;
-		height: 20px;
-	}
-		/*BANNIERE*/
-	.banniere
-	{
-		background-image: url(asset/banniere/ban.jpg);
-		background-position: center center;
-		background-size: cover;
-		background-repeat: no-repeat;
-		align-content: center;
-		position: relative;
-	}
+/*RESEAU*/
 
-	 /*ARTICLE*/
+.reseau {
+	background-color: #211E2B;
+}
+
+/*HEADER*/
+
+#logo {
+	align-items: center;
+	width: 100px;
+	height: 100px;
+}
+
+.search button img {
+	align-items: center;
+	width: 20px;
+	height: 20px;
+}
+
+/*BANNIERE*/
+
+.banniere {
+	background-image: url(asset/banniere/ban.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	align-content: center;
+	position: relative;
+}
+
+/*ARTICLE*/
+
+.mag, .map {
+	padding-top: 50px;
+}
+
+#typeshop {
+	font-style: italic;
+}
+
+.train {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*HOVER*/
+
+.post:hover .imghov {
+	width: 100%;
+}
+
+.post img {
+	display: block;
+}
+
+.imghov {
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 100%;
+	position: absolute;
+	background: #5a5d8a7d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	transition: 0.2s;
+}
+
+.imghov h2 {
+	color: white;
+	font-family: 'Anton', sans-serif;
+}
+
+/*TITRE DES PAGES*/
+
+.titlepage {
+	line-height: 200px;
+	background: #211E2B;
+	color: aliceblue;
+	position: relative;
+	align-content: center;
+	font-family: 'Anton', sans-serif;
+	font-size: 4em;
+	text-align: justify;
+}
