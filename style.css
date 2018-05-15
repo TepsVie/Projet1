@@ -1,8 +1,7 @@
 [class*="col-"] {
-	bordder: 1px solid black;
+	bordrer: 1px solid black;
 	text-dalign: center;
 }
-
 
 /*RESEAU*/
 
@@ -11,6 +10,12 @@
 }
 
 /*HEADER*/
+
+.header
+{
+	font-size: 1.1em;
+	font-family: 'Poppins', sans-serif;
+}
 
 #logo {
 	align-items: center;
@@ -42,7 +47,9 @@
 }
 
 .map {
-	padding-bottom: 50px
+	padding-bottom: 50px;
+	align-content: center;
+	text-align: center;
 }
 
 #typeshop {
@@ -57,35 +64,50 @@
 	height: 100%;
 }
 
-
-.programme
-{
+.programme {
 	background-color: rgba(170, 160, 173, 0.116);
 }
 
-.prog{
+.prog {
 	padding-top: 100px;
 }
 
-.prog h2{
+.prog h2 {
 	font-family: 'Anton', sans-serif;
 	font-size: 4em;
 	text-align: center;
 }
 
-.prog p, .prog ul{
+.prog p, .prog ul {
 	padding-left: 50px;
 	padding-right: 50px;
 }
-#p1
-{
+
+#p1 {
 	font-weight: bold;
 }
-a
-{
-color: rgba(106, 204, 82, 0.678);
-text-decoration: none;
+
+a {
+	color: rgba(106, 204, 82, 0.678);
+	text-decoration: none;
 }
+
+.navcomplement {
+	background-color: rgba(94, 89, 114, 0.534);
+	text-align: center;
+}
+
+.articlecomplement h2 {
+	font-family: 'Anton', sans-serif;
+	font-size: 4em;
+	text-align: center;
+}
+
+.supplement {
+	padding-top: 50px;
+}
+
+
 
 /*HOVER*/
 
@@ -127,7 +149,6 @@ text-decoration: none;
 	font-family: 'Anton', sans-serif;
 	font-size: 4em;
 	text-align: center;
-
 }
 
 .footer {
