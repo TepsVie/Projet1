@@ -9,6 +9,7 @@
 .header {
 	font-size: 0.7m;
 	font-family: 'Poppins', sans-serif;
+	background: #f8f5f5;
 }
 
 #logo {
@@ -185,3 +186,4 @@
 	padding-top: 50px;
 	color: white;
 }
+
