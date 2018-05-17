@@ -1,8 +1,3 @@
-[class*="col-"] {
-	bordrer: 1px solid black;
-	text-dalign: center;
-}
-
 /*RESEAU*/
 
 .reseau {
@@ -11,9 +6,8 @@
 
 /*HEADER*/
 
-.header
-{
-	font-size: 1.1em;
+.header {
+	font-size: 0.7m;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -21,6 +15,7 @@
 	align-items: center;
 	width: 100px;
 	height: 100px;
+	position: relative;
 }
 
 .search button img {
@@ -33,28 +28,11 @@
 
 .banniere {
 	background-image: url(asset/banniere/ban.jpg);
-	background-position: center center;
 	background-size: cover;
-	background-repeat: no-repeat;
-	align-content: center;
-	position: relative;
 }
 
-/*ARTICLE*/
 
-.mag, .map {
-	padding-top: 50px;
-}
-
-.map {
-	padding-bottom: 50px;
-	align-content: center;
-	text-align: center;
-}
-
-#typeshop {
-	font-style: italic;
-}
+/*ENTRAINEMENT*/
 
 .train {
 	position: relative;
@@ -62,10 +40,6 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-}
-
-.programme {
-	background-color: rgba(170, 160, 173, 0.116);
 }
 
 .prog {
@@ -87,17 +61,9 @@
 	font-weight: bold;
 }
 
-a {
-	color: rgba(106, 204, 82, 0.678);
-	text-decoration: none;
-}
+/*COMPLEMENT ALIMENTAIRE*/
 
-.navcomplement {
-	background-color: rgba(94, 89, 114, 0.534);
-	text-align: center;
-}
-
-.articlecomplement h2 {
+.articlecomplement h2, .macro h2 {
 	font-family: 'Anton', sans-serif;
 	font-size: 4em;
 	text-align: center;
@@ -105,11 +71,17 @@ a {
 
 .supplement {
 	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
+.supplement h3 {
+	font-family: 'Anton', sans-serif;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 2em;
+}
 
-
-/*HOVER*/
+/*ENTRAINEMENT HOVER*/
 
 .post:hover .imghov {
 	width: 100%;
@@ -138,7 +110,27 @@ a {
 	font-family: 'Anton', sans-serif;
 }
 
+/*MAGASIN*/
+
+.mag, .map {
+	padding-top: 50px;
+}
+
+.map {
+	padding-bottom: 50px;
+	align-content: center;
+	text-align: center;
+}
+
+#typeshop {
+	font-style: italic;
+}
+
 /*TITRE DES PAGES*/
+
+#namemusc {
+	padding-bottom: 50px;
+}
 
 .titlepage {
 	line-height: 200px;
@@ -152,8 +144,44 @@ a {
 }
 
 .footer {
-	line-height: 250px;
 	background-color: #211E2B;
+}
+
+/* FOOTER */
+
+.footer {
+	background: #211E2B;
+}
+
+.footer a {
+	color: #ffffff;
+	text-decoration: none !important;
+	background-color: transparent;
+	-webkit-text-decoration-skip: objects;
+}
+
+.footer ul.quick-links li {
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+.footer ul.quick-links li:hover {
+	padding: 3px 0;
+	margin-left: 5px;
+	font-weight: 700;
+}
+
+.footer ul.quick-links li a i {
+	margin-right: 5px;
+}
+
+.footer ul.quick-links li:hover a i {
+	font-weight: 700;
+}
+
+#titlefooter {
+	padding-top: 50px;
 	color: white;
-	text-align: center;
 }
